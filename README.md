@@ -1,1 +1,1 @@
-# rsschool-cv
+https://JUSTNOFEAR.github.io/rsschool-cv/cv
