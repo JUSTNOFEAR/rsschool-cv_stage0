@@ -1,4 +1,44 @@
-.myStyle1 {
-    font-size:small;
-    color:blue;
+.str_punkts {
+    display: inline;
+    margin: 30px;
+    list-style-type: none;
+    font-size: large;
+}
+
+.div_block {
+    background-color: blue;
+}
+
+.centre {
+    text-align:center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    text-align:left;
+}
+
+.left {
+    text-align:right;
+}
+
+.div_center {
+    display: block;
+      margin: 0 auto; 
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    padding: 20px;
+}
+ 
+table {
+    text-align: center;
 }
