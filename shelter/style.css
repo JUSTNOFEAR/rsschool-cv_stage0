@@ -1,0 +1,47 @@
+.flex_head,.flex_elements{
+    display: flex;
+
+}
+
+.flex_elements{
+    flex-direction: column;
+}
+
+.no_marg{
+    margin: 0;
+}
+
+.standart_font_h{
+    font: Georgia;
+    font-weight: 400;
+    size: 32px;
+    line-height: 35.2px;
+}
+
+.head_block{
+    width: 1200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: blueviolet;
+}
+
+body{
+    max-width: 1280px;
+    min-width: 1280px;
+    margin:0 auto;
+}
+
+
+.text{
+    position: absolute;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;}
+
