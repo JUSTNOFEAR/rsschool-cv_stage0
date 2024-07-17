@@ -1,29 +1,67 @@
-.flex_head,.flex_elements{
+
+.head_nav_lay{
     display: flex;
-
-}
-
-.flex_elements{
-    flex-direction: column;
-}
-
-.no_marg{
-    margin: 0;
-}
-
-.standart_font_h{
-    font: Georgia;
-    font-weight: 400;
-    size: 32px;
-    line-height: 35.2px;
-}
-
-.head_block{
+    justify-content: space-between;
+    align-items: center;
     width: 1200px;
     height: 60px;
-    margin-top: 30px;
     margin-left: 40px;
-    background-color: blueviolet;
+
+}
+
+.logo_flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo_title{
+    font: Georgia;
+    font-weight: 400;
+    font-size: 32px;
+    color: #F1CDB3;
+}
+
+.logo_subtitle{
+    font: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color:#FFFFFF;
+}
+
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_options{
+    color: #FFFFFF;
+    text-decoration: none;
+    font: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 15px;
+    
+}
+
+.menu_options_first{
+    color: #FFFFFF;
+    font: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 15px;
+    text-decoration: underline #F1CDB3;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    
+}
+
+.start_background{
+    height: 908px;
+    padding-top: 30px;
+    background: linear-gradient(to bottom right,#5B483A, #262425,  #211F20);
+    
 }
 
 body{
@@ -31,17 +69,4 @@ body{
     min-width: 1280px;
     margin:0 auto;
 }
-
-
-.text{
-    position: absolute;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 110%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #F1CDB3;}
 
