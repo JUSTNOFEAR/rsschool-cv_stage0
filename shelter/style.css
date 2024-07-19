@@ -76,6 +76,7 @@
 .start_screen_text{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 40px;
 }
 
@@ -125,10 +126,18 @@
     margin: 90px 40px;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 430px;
+    height: 380px;
 
+}
 
 .heading_about{
-    box-sizing: border-box;
+
     font-family: Georgia;
     font-weight: 400;
     font-size: 35px;
@@ -139,10 +148,10 @@
 
 .subheading_about{
     font-family: Arial;
+
     font-weight: 400;
     font-size: 15px;
     color: #4C4C4C;
-    margin-bottom: 42px;    
 }
 
 
