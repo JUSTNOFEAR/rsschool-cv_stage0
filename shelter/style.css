@@ -1,5 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+button{
+    transition: background-color 0.4s;
+}
+
+.ssc_button:hover ,.button_primary:hover{
+    background-color: rgba(242, 218, 201);
+}
+
+.animal_buttons:hover{
+    background-color: #F1CDB3;
+}
+
+
+
+
+
+
 /*header*/
-.head_nav_lay{
+.head_nav_lay, .head_nav_lay_our{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +39,7 @@
 }
 
 .logo_title, .logo_title_pets{
+    text-decoration: none;
     font-family: Georgia;
     font-weight: 400;
     font-size: 32px;
@@ -68,6 +91,10 @@
     padding: 0;
     width: 1280px;
     height: 120px;
+}
+
+.head_nav_lay_our{
+    margin-left: 0;
 }
 
 .logo_title_pets{
