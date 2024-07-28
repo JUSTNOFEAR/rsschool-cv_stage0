@@ -1,0 +1,646 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+button{
+    transition: background-color 0.4s, border-color 0.4s;
+}
+
+.ssc_button:hover ,.button_primary:hover{
+    background-color: rgba(253, 220, 196, 1);
+    
+}
+
+.card:hover{
+    .animal_buttons{
+        background-color: rgba(253, 220, 196, 1);
+        border-color: rgba(253, 220, 196, 1);
+    }
+}
+
+.button_arrow:hover{
+    background-color: rgba(253, 220, 196, 1);
+    border-color: rgba(253, 220, 196, 1);
+}
+
+.menu_options:hover{
+    color: rgba(250, 250, 250, 1);
+}
+
+.menu_options_pets:hover{
+    color: rgba(41, 41, 41, 1);
+}
+
+
+
+/*header*/
+.head_nav_lay, .head_nav_lay_our{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 60px;
+    margin-left: 40px;
+
+}
+
+.logo_flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo_title, .logo_title_pets{
+    text-decoration: none;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 32px;
+    color: #F1CDB3;
+}
+
+.logo_subtitle, .logo_subtitle_pets{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color:#FFFFFF;
+}
+
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_options, .menu_options_pets{
+    color: rgba(205, 205, 205, 1);
+    transition: color 0.4s;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 15px;
+    
+}
+
+.menu_options_first, .menu_options_second{
+    color: #FFFFFF;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 15px;
+    text-decoration: underline #F1CDB3;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    
+}
+/**/
+
+
+/*our pets header*/
+
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 1280px;
+    height: 120px;
+}
+
+.head_nav_lay_our{
+    margin-left: 0;
+}
+
+.logo_title_pets{
+    color: #545454;
+}
+
+.logo_subtitle_pets{
+    color:#545454;
+}
+
+
+.menu_options_pets{
+    color: rgba(84, 84, 84, 1);
+    
+}
+
+.menu_options_second{
+    color: #545454;
+    
+}
+
+.our_pets_heading{
+    width: 40px;
+    height: 90px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+.our_friends{
+    background-color: #F6F6F6;
+    width: 1280px;
+    height: 1342px;
+}
+
+.our_pets_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 1162px;
+    padding: 80px 40px;
+    padding-bottom: 100px;
+
+}
+
+
+
+.cards_container{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 1200px;
+    height: 930px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    width: 340px;
+    height: 52px;
+}
+
+.nav_buttons{
+    background-color: none;
+}
+/**/
+
+
+
+
+
+
+
+/*start_screen*/
+.start_background{
+    height: 908px;
+    padding-top: 30px;
+    background: linear-gradient(to bottom right,#5B483A,#211F20, #262425);
+    background-image: url("./images/start-screen-background.png");
+}
+
+.not_only{
+    position: relative;
+    width: 1200px;
+    height: 728px;
+    top: 90px;
+    left: 40px;
+}
+
+.content{
+    position: absolute;
+    top: 163px;
+}
+
+.ssc_heading{
+    font-family: Georgia;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.2px;
+    text-align: left;
+    width: 310px;
+    height: 114px;
+    margin-bottom: 42px;
+}
+
+.ssc_subheading{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #CDCDCD;
+    width: 460px;
+    height: 72px;
+    margin-bottom: 42px;
+}
+
+.ssc_button{
+    padding: 15px, 45px, 15px, 45px;
+    background-color: rgba(241, 205, 179, 1);
+    border: none;
+    border-radius: 100px;
+    width: 207px;
+    height: 52px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+}
+
+
+.picture_dog{
+    position: absolute;
+    width: 698px;
+    height: 728px;
+    left: 502px;
+    top: 30px;
+}
+/**/
+
+
+/*about*/
+.about{
+    position: relative;
+    width: 1280px;
+    height: 588px;
+}
+
+.about_content{
+    position: absolute;
+    width: 1200px;
+    height: 408px;
+    left: 40px;
+    top: 80px;
+}
+
+.about_pets{
+    position: absolute;
+    left: 175px;
+}
+
+.content_txt{
+    position: absolute;
+    width: 430px;
+    height: 380px;
+    left: 595px;
+    right: 175px;
+    bottom: 14px;
+}
+
+.ab_heading{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #545454;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.ab_subheading{
+    margin-top: 25px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #4C4C4C;
+}
+/**/
+
+
+/*Pets*/
+.pets{
+    position: relative;
+    width: 1280px;
+    height: 877px;
+    background-color: #F6F6F6;
+}
+
+.pets_content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1200px;
+    height: 697px;
+    bottom: 80px;
+    left: 40px;
+}
+
+/**/
+.pets_heading, .our_pets_heading{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    width: 400px;
+    height: 90;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #545454;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+
+
+.animal_names{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.animal_buttons{
+    width: 187px;
+    height: 52px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 100px;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: #F1CDB3;
+    background-color: #FAFAFA;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+    margin-bottom: 30px;
+}
+
+
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 435px;
+}
+
+.button_arrow,.nav_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    padding: 23px 19px 23px 19px;
+    border-radius: 100px;
+    border-width: 2px ;
+    border-style: solid;
+    border-color: #F1CDB3;
+
+}
+
+.button_primary{
+    padding: 15px, 45px, 15px, 45px;
+    background-color: #F1CDB3;
+    border: none;
+    border-radius: 100px;
+    width: 261px;
+    height: 52px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    color: #292929;
+    margin-top: 60px;
+}
+
+/**/
+
+/*Help*/
+
+.help{
+    position: relative;
+    width: 1280px;
+    height: 611px;
+}
+
+.help_content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 431px;
+    top: 80px;
+    left: 40px;
+
+
+
+}
+
+.help_title{
+    width: 308px;
+    height: 90px;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    color: #545454;
+    margin-top: 0px;
+
+}
+
+.help_list{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: space-between;
+    align-items: baseline;
+}
+
+
+.help_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 113px;
+    margin: 60px;
+    margin-bottom: 0;
+
+}
+
+.list_names{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #545454;
+    margin-top: 30px;
+
+}
+
+/**/
+
+
+/*donation*/
+.in_addiction{
+    position: relative;
+    background-color: #F6F6F6;
+    width: 1280px;
+    height: 462px;
+}
+
+.donation_content{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 915px;
+    height: 282px;
+    top: 80px;
+    left: 183px;
+
+}
+
+.content_inf{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 282px;
+    margin-left: 30px;
+}
+
+.help_heading{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    width: 300px;
+    height: 90px;
+    color: #545454;
+    text-align: left;
+    margin: 0;
+}
+
+.help_subheading{
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    width: 307px;
+    height: 17px;
+    color: #545454;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card_number{
+    display: flex;
+    align-items: center;
+    width: 294px;
+    height: 23px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 9px;
+    background-color: #F1CDB3;
+    margin-bottom: 20px;
+
+
+}
+
+.card_num_txt{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    color: #545454;
+    margin: 0;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.donation_inf{
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    width: 380px;
+    height: 72px;
+    color: #B2B2B2;
+    margin: 0;
+}
+
+/**/
+
+/*footer*/
+
+footer{
+    position: relative;
+    width: 1280px;
+    height: 350px;
+    background: linear-gradient(to bottom right,#5B483A,#211F20, #262425);
+    background-image: url("./images/start-screen-background.png");
+}
+
+.footer_content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 310px;
+    top: 40px;
+    left: 40px;
+
+}
+
+.footer_contacts{
+    display: flex;
+    flex-direction: column;
+    margin-right: 160px;
+    width: 278px;
+    height: 234px;
+}
+
+.footer_heading{
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.footer_string{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-bottom: 40px;
+}
+
+.footer_info{
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #F1CDB3;
+
+
+}
+
+
+/**/
+
+
+
+
+
+body{
+    max-width: 1280px;
+    min-width: 1280px;
+    margin:0 auto;
+}
